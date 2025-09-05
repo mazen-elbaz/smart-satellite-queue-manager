@@ -26,14 +26,16 @@ It combines **machine learning**, **orbital mechanics**, and a **dynamic admin c
 ---
 
 ## 📂 Project Structure
-📦 smart-satellite-queue-manager
-┣ 📜 main.cpp # Entry point of the system
-┣ 📜 admin_console.h # Admin interface for priority control
-┣ 📜 satellite.h # Satellite object definition
-┣ 📜 orbital_mechanics.h # Orbital mechanics calculations
-┣ 📜 ml_predictor.h # AI-driven priority predictor
-┣ 📜 satellite_queue.h # Queue implementation
-┗ 📜 hash_table.h # Custom hash table
+
+📦 smart-satellite-queue-manager  
+ ┣ 📜 main.cpp                          # Entry point of the system  
+ ┣ 📜 admin_console.h                   # Admin interface for priority control  
+ ┣ 📜 constants.h                       # Constants and configuration values  
+ ┣ 📜 hash_table.h                      # Custom hash table for fast access  
+ ┣ 📜 orbital_mechanics.h               # Orbital mechanics calculations  
+ ┣ 📜 satellite.h                       # Satellite object definition  
+ ┣ 📜 satellite_queue.h                 # Queue implementation for satellites  
+ ┗ 📜 professional_gui_fixed.cpp        # GUI prototype / fixed interface  
 
 ---
 
